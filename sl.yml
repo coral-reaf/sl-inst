@@ -9,4 +9,6 @@
       yum:
         name: sl
         state: present
-
+    - name: Wait
+      pause: 
+        seconds: 30
